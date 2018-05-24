@@ -1,0 +1,93 @@
+h1
+{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 52px;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+h4
+{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  color: grey;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+form
+{
+  height: 80px;
+}
+
+figcaption
+{
+  width: 25px;
+  height: 10px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: black;
+  font-size: 10px;
+  display : inline;
+  position: relative;
+  bottom: 25px;
+  left: 55px;
+}
+section
+{
+  background-color: #CECECE;
+  height: 650px;
+  position: relative;
+  bottom: 20px;
+  margin-right: 20px
+}
+a:hover, a:focus
+{
+  text-decoration:none;
+}
+img:hover, img:focus
+{
+  text-decoration:none;
+  border: 3px solid blue;
+}
+
+
+/* Je sélectionne les <li> du menu horizontal */
+
+ul.menu_horizontal li
+{
+display : inline;
+padding : 0 0.8em; /* Pour espacer les boutons entre eux */
+}
+ul.menu_horizontal
+{
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+margin-left: 90px;
+margin-right: 0px;
+margin-top: 30px;
+width: 750px;
+}
+figcaption.b2
+{
+  position: CENTER;
+}
+
+.img-thumbnail{
+width:80px;
+height:80px;
+padding:25px 15px 5px 15px;
+}
+textarea#ameliorer
+{
+  margin-left: 120px;
+}
+figcaption.fig-sous-menu
+{
+  position: relative;
+  bottom: 55px;
+}
+.zonetext
+{
+  position: relative;
+  left: 430px;
+}

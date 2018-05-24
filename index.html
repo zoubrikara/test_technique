@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>test</title>
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <h1>Parlez nous de votre cible</h1>
+<section>
+  <h4>Cible</h4>
+
+  <!--   data toggle   -->
+  <div class="wizard-navigation">
+      <ul class="menu_horizontal">
+            <li><a  href="#B2B" data-toggle="tab"><figcaption class="b2">B2B</figcaption><img src="https://assistant.getasound.com/assets/factory.png"  class="img-thumbnail" /></a></li>
+          <li><a  href="#B2C" data-toggle="tab"><figcaption class="b2">B2C</figcaption><img src="https://assistant.getasound.com/assets/factory.png"  class="img-thumbnail"/></a></li>
+      </ul>
+  </div>
+  <!--   data content toggle "cible"    -->
+  <div class="tab-content">
+      <div class="tab-pane" id="B2B">
+          <div class="row">
+              <div class="col-sm-12">
+                  <h4>B2B</h4>
+              </div>
+              <div class="col-sm-6">
+
+
+                <ul class="menu_horizontal">
+                    <li><a href="#"><figcaption class="fig-sous-menu">Entreprise</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail" /></a></li>
+                    <li><a href="#"><figcaption class="fig-sous-menu">Association</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail"/></a></li>
+                    <li><a href="#"><figcaption class="fig-sous-menu">Public</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail"/></a></li>
+                    <li><a href="#"><figcaption class="fig-sous-menu">autres</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail"/></a></li>
+                </ul>
+
+                <form method="post">
+                     <label for="ameliorer"><h4>Plus d'informations</h4></label>
+                     <label class="zonetext" name="nbcar" id="mots">mots</label>
+
+                     <textarea name="zone" id="ameliorer"  rows=5 cols="80" onkeypress="compter(this.form)"> </textarea>
+
+                </form>
+
+
+
+              </div>
+
+          </div>
+      </div>
+      <!--   data content toggle "B2C"    -->
+      <div class="tab-pane" id="B2C">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="info-text">B2C</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul class="menu_horizontal">
+                  <li><a href="#"><figcaption class="fig-sous-menu">Homme</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail" ></a></li>
+                  <li><a href="#"><figcaption class="fig-sous-menu">Femme</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail"/></a></li>
+                  <li><a href="#"><figcaption class="fig-sous-menu">autres</figcaption><img src="https://assistant.getasound.com/assets/boy.png" class="img-thumbnail"/></a></li>
+              </ul>
+
+
+               <form method="post" action="traitement.php">
+                    <label for="ameliorer"><h4>Plus d'informations</h4></label>
+                    <INPUT class="zonetext" id="zonecal" type="text" value="10"  name="nbcar" size=3><label class="zonetext">mots</label>
+                    <textarea name="zone" id=ameliorer rows=5 cols="80" onkeypress="compter(this.form)"> </textarea>
+
+               </form>
+            </div>
+        </div>
+      </div>
+</section>
+
+
+
+</body>
+</html>
