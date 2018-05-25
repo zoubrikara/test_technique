@@ -11,15 +11,23 @@ var nb=txt.length;
 if (nb>max) {
 
   var elmt = document.getElementById("ali");
-  elmt.style.backgroundColor = "#FF0000";
+  elmt.style.color = "#FF0000";
 
   var elmt1 = document.getElementById("mots");
   elmt1.style.color = "#FF0000";
 
+}
 
+if (nb<=max) {
 
+  var elmt = document.getElementById("ali");
+  elmt.style.color = "#000000";
+
+  var elmt1 = document.getElementById("mots");
+  elmt1.style.color = "#000000";
 
 }
+
 
 document.getElementById("ali").innerHTML = (max-nb);
 
